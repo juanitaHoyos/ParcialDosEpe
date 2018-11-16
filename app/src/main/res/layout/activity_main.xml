@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Califica la mejor pelicula"
+            android:textSize="15sp"
+            android:layout_marginBottom="20dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:id="@+id/tv_A"
+                android:text="Avengers: Infinity War"
+                android:textSize="17sp"
+                android:layout_marginBottom="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:id="@+id/btn_Auno"/>
+
+            <Button
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:text="2"
+                android:id="@+id/btn_Ados"/>
+
+            <Button
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:text="3"
+                android:id="@+id/btn_Atres"/>
+
+            <Button
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:text="4"
+                android:id="@+id/btn_Acuatro"/>
+
+            <Button
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:text="5"
+                android:id="@+id/btn_Acinco"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:id="@+id/tv_Avotos"
+                android:text="Votos:"
+                android:textSize="17sp"
+                android:layout_marginBottom="10dp"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:id="@+id/tv_B"
+                android:text="Bohemian Rhaposdy"
+                android:textSize="17sp"
+                android:layout_marginBottom="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:id="@+id/btn_Buno"/>
+
+            <Button
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:text="2"
+                android:id="@+id/btn_Bdos"/>
+
+            <Button
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:text="3"
+                android:id="@+id/btn_Btres"/>
+
+            <Button
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:text="4"
+                android:id="@+id/btn_Bcuatro"/>
+
+            <Button
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:text="5"
+                android:id="@+id/btn_Bcinco"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:id="@+id/tv_Bvotos"
+                android:text="Votos:"
+                android:textSize="17sp"
+                android:layout_marginBottom="10dp"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:id="@+id/tv_C"
+                android:text="Los Increíbles 2"
+                android:textSize="17sp"
+                android:layout_marginBottom="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:id="@+id/btn_Cuno"/>
+
+            <Button
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:text="2"
+                android:id="@+id/btn_Cdos"/>
+
+            <Button
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:text="3"
+                android:id="@+id/btn_Ctres"/>
+
+            <Button
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:text="4"
+                android:id="@+id/btn_Ccuatro"/>
+
+            <Button
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:text="5"
+                android:id="@+id/btn_Ccinco"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:id="@+id/tv_Cvotos"
+                android:text="Votos:"
+                android:textSize="17sp"
+                android:layout_marginBottom="10dp"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:id="@+id/tv_D"
+                android:text="Deadpool 2"
+                android:textSize="17sp"
+                android:layout_marginBottom="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:id="@+id/btn_Duno"/>
+
+            <Button
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:text="2"
+                android:id="@+id/btn_Ddos"/>
+
+            <Button
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:text="3"
+                android:id="@+id/btn_Dtres"/>
+
+            <Button
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:text="4"
+                android:id="@+id/btn_Dcuatro"/>
+
+            <Button
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:text="5"
+                android:id="@+id/btn_Dcinco"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:id="@+id/tv_Dvotos"
+                android:text="Votos:"
+                android:textSize="17sp"
+                android:layout_marginBottom="10dp"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
